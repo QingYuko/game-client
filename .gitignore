@@ -17,6 +17,14 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+
+# ===========
+# IDE related
+# ===========
+bower_components/
+.idea/
+
+
 # =========================
 # Operating System Files
 # =========================
