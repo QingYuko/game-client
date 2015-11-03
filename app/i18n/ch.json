@@ -1,0 +1,15 @@
+{
+  "login"       : "登录",
+  "register"    : "注册",
+  "email"       : "电子邮件",
+  "password"    : "密码",
+  "about"       : "关于",
+  "logout"      : "退出",
+  "home"        : "首页",
+  "back"        : "返回",
+  "enter"       : "进入",
+  "game"        : "游戏",
+  "leaderboard" : "排行榜",
+  "activity"    : "活动",
+  "achievement" : "成就"
+}

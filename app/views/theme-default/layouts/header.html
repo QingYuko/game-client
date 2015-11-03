@@ -1,0 +1,25 @@
+<div class="md-toolbar-tools">
+    <md-button aria-label="OpenMenu" class="md-icon-button" hide-gt-lg ng-click="toggleSidenav()">
+        <ng-md-icon icon="menu"></ng-md-icon>
+    </md-button>
+
+    <md-button ui-sref="master.games" aria-label="Home"
+    class="md-icon-button" translate="home"></md-button>
+
+    <span flex></span>
+
+    <md-menu>
+        <md-button aria-label="Switch Language" class="md-icon-button" ng-click="openLanguageMenu($mdOpenMenu, $event)">
+            <ng-md-icon icon="language"></ng-md-icon>
+        </md-button>
+
+        <md-menu-content>
+            <md-menu-item>
+                <md-button ng-click="switchLang('en')" md-no-ink>English</md-button>
+            </md-menu-item>
+            <md-menu-item>
+                <md-button ng-click="switchLang('ch')" md-no-ink>简体中文</md-button>
+            </md-menu-item>
+        </md-menu-content>
+    </md-menu>
+</div>

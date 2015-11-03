@@ -21,7 +21,8 @@ $RECYCLE.BIN/
 # ===========
 # IDE related
 # ===========
-bower_components/
+app/bower_components/
+app/env.js
 .idea/
 
 

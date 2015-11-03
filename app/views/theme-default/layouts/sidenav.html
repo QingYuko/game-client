@@ -1,0 +1,16 @@
+<md-list>
+    <div ng-show="$auth.isAuthenticated()">
+        <md-list-item translate="game"></md-list-item>
+        <md-list-item translate="activity"></md-list-item>
+        <md-list-item translate="leaderboard"></md-list-item>
+        <md-list-item translate="achievement"></md-list-item>
+        <md-divider></md-divider>
+    </div>
+
+    <div ng-hide="$auth.isAuthenticated()">
+        <md-list-item translate="login"></md-list-item>
+        <md-list-item translate="register"></md-list-item>
+    </div>
+
+    <md-list-item ng-show="$auth.isAuthenticated()" translate="logout"></md-list-item>
+</md-list>

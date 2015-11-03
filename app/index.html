@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>KewMann Game</title>
+
+    <!-- Load Lib Css -->
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
+    <link rel="stylesheet" href="bower_components/angular-material-icons/angular-material-icons.css">
+
+    <!-- Load App Global Css -->
+    <link rel="stylesheet" href="assets/global.css">
+</head>
+
+<body ng-app="kgb" layout="column" flex="100">
+<!-- =============================================================================================================== -->
+<!-- Header -->
+<md-toolbar>
+    <div ui-view="header"></div>
+</md-toolbar>
+
+<div layout="row" flex>
+    <md-sidenav md-component-id="sidenav" md-is-locked-open="$mdMedia('gt-lg')" class="md-whiteframe-z1">
+        <div ui-view="sidenav"></div>
+    </md-sidenav>
+
+    <div ui-view flex layout="column"></div>
+</div>
+
+<!-- Footer -->
+<div ui-view="footer"></div>
+<!-- =============================================================================================================== -->
+<!-- Load Lib Js Files -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-animate/angular-animate.min.js"></script>
+<script src="bower_components/angular-aria/angular-aria.min.js"></script>
+<script src="bower_components/angular-material/angular-material.min.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="bower_components/ngstorage/ngStorage.min.js"></script>
+<script src="bower_components/angular-material-icons/angular-material-icons.min.js"></script>
+<script src="bower_components/angular-translate/angular-translate.min.js"></script>
+<script src="bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+<script src="bower_components/satellizer/satellizer.min.js"></script>
+
+<!-- Load Func & Env Js Files -->
+<script src="env.js"></script>
+<script src="assets/global.js"></script>
+
+<!-- Load Configs -->
+<script src="config/app.js"></script>
+<script src="config/auth.js"></script>
+<script src="config/game.js"></script>
+<script src="config/process.js"></script>
+<script src="config/task.js"></script>
+
+<!-- Load Services -->
+<script src="services/game.js"></script>
+<script src="services/process.js"></script>
+<script src="services/task.js"></script>
+
+<!-- Load Controllers -->
+<script src="controllers/app.js"></script>
+<script src="controllers/auth.js"></script>
+<script src="controllers/game.js"></script>
+<script src="controllers/process.js"></script>
+<script src="controllers/task.js"></script>
+
+</body>
+</html>

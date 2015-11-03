@@ -1,0 +1,15 @@
+{
+  "login"       : "Login",
+  "register"    : "Register",
+  "email"       : "Email",
+  "password"    : "Password",
+  "about"       : "About",
+  "logout"      : "Logout",
+  "home"        : "Home",
+  "back"        : "Back",
+  "enter"       : "Enter",
+  "game"        : "Game",
+  "leaderboard" : "Leaderboard",
+  "activity"    : "Activity",
+  "achievement" : "Achievement"
+}
